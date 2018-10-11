@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Vue Example</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+
+  <!-- Header Template -->
+  <header id="appHeader" class="d-none">
+    <nav>
+      <ul>
+        <li v-for='menuName in menu'>
+            <a href="menuName.url"><i class="fas" v-bind:class="[menuName.icon]"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Header Template -->
+
+  <section class="w-100 h-100" id="loginContainer">
+      <div class="w-100 h-100 d-table loginBlock">
+        <div class="w-100 h-100 d-table-cell align-middle text-center animated fadeOut delay-1s logo-block">
+          <figure class="m-0 d-inline-block">
+            <img src="img/icon1.svg" alt="Icon" />
+          </figure>
+        </div>
+      </div>
+
+      <div class="w-100 h-100 d-table animated fadeIn delay-1s loginBlock loginFormBlock">
+        <div class="w-100 h-100 d-table-cell align-middle text-center logo-block">
+          <!-- Default form login -->
+          <div class="w-100 mx-auto z-depth-2 border border-light p-5 form-container">
+            <form class="w-100 text-center">
+                <img src="img/icon1.svg" alt="LOGO" class="mb-1" />
+                <!-- Email -->
+                <div class="md-form" v-bind:class="{hasError:!loginphoneNo && otpClicked}">
+                    <i class="fa fa-mobile-phone prefix left-0"></i>
+                    <input type="text" ref="phoneNumber" id="loginphoneNo" v-model="loginphoneNo" class="form-control">
+                    <label for="loginEmail">Phone Number</label>
+                    <div class="errorMsg" v-if="!loginphoneNo && otpClicked">
+                      Please Enter Valid Email Address
+                    </div>
+                </div>
+            </form>
+            <button class="btn btn-info btn-block my-4" v-on:click="sendOTPFunc()">Send OTP</button>
+          </div>
+          <!-- Default form login -->
+        </div>
+      </div>
+      
+  </section>
+
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Vue JS -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!-- Custom JS -->
+  <script type="text/javascript" src="js/common.vue.js"></script>
+</body>
+
+</html>

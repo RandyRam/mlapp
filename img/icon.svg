@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="100%" height="100%" viewBox="0 0 79.374998 79.375002" version="1.1" id="svg8" inkscape:version="0.92.3 (2405546, 2018-03-11)" sodipodi:docname="icon.svg">
+    <defs id="defs2">
+        <linearGradient inkscape:collect="always" id="linearGradient4760">
+            <stop style="stop-color:#fff;stop-opacity:1;" offset="0" id="stop4756" />
+            <stop style="stop-color:#fff;stop-opacity:0;" offset="1" id="stop4758" />
+        </linearGradient>
+        <linearGradient id="linearGradient6275" osb:paint="solid">
+            <stop style="stop-color:#fff;stop-opacity:1;" offset="0" id="stop6273" />
+        </linearGradient>
+        <linearGradient inkscape:collect="always" xlink:href="#linearGradient4760" id="linearGradient4762" x1="6.614584" y1="249.37493" x2="72.760416" y2="249.37493" gradientUnits="userSpaceOnUse" />
+    </defs>
+    <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="2.8" inkscape:cx="-0.076537384" inkscape:cy="42.858779" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" units="px" inkscape:window-width="1366" inkscape:window-height="706" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1">
+        <inkscape:grid type="xygrid" id="grid4751" />
+    </sodipodi:namedview>
+    <metadata id="metadata5">
+        <rdf:RDF>
+            <cc:Work rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title />
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-217.62498)">
+        <path id="path4755" style="fill:url(#linearGradient4762);fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 23.8125,259.82597 h 2.645833 v 13.22917 h 46.302083 v 2.64583 H 23.8125 v -15.875 m -17.197916,9.52501 h 2.6458333 v -39.6875 l 15.8749987,15.875 15.875,-15.875 10e-7,39.6875 H 43.65625 V 223.0489 L 25.135416,241.56974 6.614584,223.0489 Z" inkscape:connector-curvature="0" />
+        <!-- <path style="fill:none;stroke:#43dbce;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 0,280.99998 c 0,0 15.875,14.70833 39.6875,14.70833 C 63.5,295.70831 78,280.99998 78,280.99998" id="path6333" inkscape:connector-curvature="0" sodipodi:nodetypes="czc" />
+        <text style="font-style:normal;font-variant:normal;font-weight:normal;text-align:center;font-stretch:normal;font-size:7.33333349px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#4c516e;fill-opacity:1;stroke:none" id="text4766">
+            <textPath xlink:href="#path6333" id="textPath4774">
+                <tspan id="tspan4764">GET ACTIVE TO MESSAGING</tspan>
+            </textPath>
+        </text> -->
+    </g>
+</svg>
